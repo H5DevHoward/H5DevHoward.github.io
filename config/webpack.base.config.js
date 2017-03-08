@@ -8,7 +8,7 @@ module.exports = {
     context: path.join(process.cwd(), 'dev'),
     entry: './script/index.js',
     output: {
-        path: path.join(process.cwd(), 'docs'),
+        path: path.join(process.cwd(), 'dist'),
         filename: '[name].js',
     },
     module: {
