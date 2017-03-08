@@ -21,7 +21,7 @@ const htmlPlugins = htmlFiles.map((file, i) =>
 
 config.plugins = (config.plugins || []).concat([
     ...htmlPlugins,
-    new CleanWebpackPlugin(['dist'], {
+    new CleanWebpackPlugin(['docs'], {
         root: path.resolve(__dirname, '..'),
         verbose: true,
     }),
